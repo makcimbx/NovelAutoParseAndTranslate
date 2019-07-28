@@ -6,6 +6,8 @@ Main features:
 - [x] Proxy (Useful when getting a ban for a while)
 - [ ] Select of language
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/65yb4EtEtVk/0.jpg)](https://www.youtube.com/watch?v=65yb4EtEtVk)
+
 ## LICENSE
 
 Released under the [MIT](https://opensource.org/licenses/MIT) License.
