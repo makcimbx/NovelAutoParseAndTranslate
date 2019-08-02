@@ -1,0 +1,43 @@
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\Novel Google Translate.exe.config
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\Novel Google Translate.exe
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\Novel Google Translate.pdb
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\GoogleTranslateFreeApi.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\HtmlAgilityPack.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\Newtonsoft.Json.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.AppContext.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.Console.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.Diagnostics.Tracing.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.Globalization.Calendars.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.IO.Compression.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.IO.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.IO.FileSystem.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.Net.Http.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.Net.Sockets.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.Reflection.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.Runtime.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.Runtime.Extensions.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.Runtime.InteropServices.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\GoogleTranslateFreeApi.xml
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\HtmlAgilityPack.pdb
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\HtmlAgilityPack.xml
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\Newtonsoft.Json.xml
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\obj\Debug\Novel Google Translate.csprojAssemblyReference.cache
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\obj\Debug\Novel_Google_Translate.Form1.resources
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\obj\Debug\Novel_Google_Translate.Form2.resources
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\obj\Debug\Novel_Google_Translate.Properties.Resources.resources
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\obj\Debug\Novel Google Translate.csproj.GenerateResource.cache
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\obj\Debug\Novel Google Translate.csproj.CoreCompileInputs.cache
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\obj\Debug\Novel Google Translate.csproj.CopyComplete
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\obj\Debug\Novel Google Translate.exe
+D:\Github\NovelAutoParseAndTranslate\Novel Google Translate\obj\Debug\Novel Google Translate.pdb
