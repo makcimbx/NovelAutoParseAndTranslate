@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Net;
@@ -60,6 +61,12 @@ namespace Novel_Google_Translate
             {
                 string pageUrl = string.Format(url, i);
                 List<string> page = await DownloadPage(pageUrl, xpath);
+                page.RemoveAll(item => item.Equals("вЂ¦"));
+                for (int y = 0; y < page.Count; y++)
+                {
+                    page[y] = System.Net.WebUtility.HtmlDecode(page[y]);
+                    page[y] = page[y].Replace("вЂ¦", "");
+                }
                 parsedPages.AddRange(page);
 
                 pageParsedCount++;
