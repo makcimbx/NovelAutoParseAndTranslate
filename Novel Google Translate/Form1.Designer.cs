@@ -45,6 +45,15 @@
             this.GoToTranslatorButton = new System.Windows.Forms.Button();
             this.TakeInTranslateButton = new System.Windows.Forms.Button();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.startPageNumber)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.endPageNumber)).BeginInit();
             this.SuspendLayout();
@@ -77,9 +86,10 @@
             // 
             // xPathTextBox
             // 
+            this.xPathTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.xPathTextBox.Location = new System.Drawing.Point(144, 40);
             this.xPathTextBox.Name = "xPathTextBox";
-            this.xPathTextBox.Size = new System.Drawing.Size(269, 20);
+            this.xPathTextBox.Size = new System.Drawing.Size(269, 23);
             this.xPathTextBox.TabIndex = 3;
             this.xPathTextBox.Text = "//*[@class=\'text-left\']";
             // 
@@ -105,8 +115,8 @@
             // 
             this.startPageNumber.Location = new System.Drawing.Point(144, 76);
             this.startPageNumber.Maximum = new decimal(new int[] {
-            100000,
-            0,
+            -727379969,
+            232,
             0,
             0});
             this.startPageNumber.Name = "startPageNumber";
@@ -118,8 +128,8 @@
             // 
             this.endPageNumber.Location = new System.Drawing.Point(293, 76);
             this.endPageNumber.Maximum = new decimal(new int[] {
-            100000,
-            0,
+            -727379969,
+            232,
             0,
             0});
             this.endPageNumber.Name = "endPageNumber";
@@ -129,7 +139,7 @@
             // 
             // StartParseButton
             // 
-            this.StartParseButton.Location = new System.Drawing.Point(34, 112);
+            this.StartParseButton.Location = new System.Drawing.Point(15, 112);
             this.StartParseButton.Name = "StartParseButton";
             this.StartParseButton.Size = new System.Drawing.Size(100, 23);
             this.StartParseButton.TabIndex = 9;
@@ -175,9 +185,9 @@
             // 
             // SaveButtonButton
             // 
-            this.SaveButtonButton.Location = new System.Drawing.Point(174, 112);
+            this.SaveButtonButton.Location = new System.Drawing.Point(252, 112);
             this.SaveButtonButton.Name = "SaveButtonButton";
-            this.SaveButtonButton.Size = new System.Drawing.Size(70, 23);
+            this.SaveButtonButton.Size = new System.Drawing.Size(85, 23);
             this.SaveButtonButton.TabIndex = 14;
             this.SaveButtonButton.Text = "Сохранить";
             this.SaveButtonButton.UseVisualStyleBackColor = true;
@@ -185,7 +195,7 @@
             // 
             // GoToTranslatorButton
             // 
-            this.GoToTranslatorButton.Location = new System.Drawing.Point(273, 176);
+            this.GoToTranslatorButton.Location = new System.Drawing.Point(197, 176);
             this.GoToTranslatorButton.Name = "GoToTranslatorButton";
             this.GoToTranslatorButton.Size = new System.Drawing.Size(140, 23);
             this.GoToTranslatorButton.TabIndex = 15;
@@ -195,7 +205,7 @@
             // 
             // TakeInTranslateButton
             // 
-            this.TakeInTranslateButton.Location = new System.Drawing.Point(273, 112);
+            this.TakeInTranslateButton.Location = new System.Drawing.Point(197, 140);
             this.TakeInTranslateButton.Name = "TakeInTranslateButton";
             this.TakeInTranslateButton.Size = new System.Drawing.Size(140, 23);
             this.TakeInTranslateButton.TabIndex = 16;
@@ -203,11 +213,104 @@
             this.TakeInTranslateButton.UseVisualStyleBackColor = true;
             this.TakeInTranslateButton.Click += new System.EventHandler(this.TakeInTranslateButton_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(562, 9);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(170, 20);
+            this.textBox1.TabIndex = 17;
+            this.textBox1.Text = "//*[@class=\'Readarea ReadAjax_content\']";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(442, 13);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(114, 13);
+            this.label6.TabIndex = 18;
+            this.label6.Text = "m.wuxiaworld.co xpath";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(442, 46);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(102, 13);
+            this.label8.TabIndex = 20;
+            this.label8.Text = "boxnovel.com xpath";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(562, 43);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(170, 20);
+            this.textBox2.TabIndex = 19;
+            this.textBox2.Text = "//*[@class=\'text-left\']";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Парсить по \\n",
+            "Парсить по <br>",
+            "Парсить по <p>"});
+            this.comboBox1.Location = new System.Drawing.Point(121, 114);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(125, 21);
+            this.comboBox1.TabIndex = 21;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(562, 78);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(170, 20);
+            this.textBox3.TabIndex = 22;
+            this.textBox3.Text = "//*[@class=\'entry-content\']";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(442, 81);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(101, 13);
+            this.label9.TabIndex = 23;
+            this.label9.Text = "novelhall.com xpath";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(432, 117);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(124, 13);
+            this.label10.TabIndex = 24;
+            this.label10.Text = "bestlightnovel.com xpath";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(562, 114);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
+            this.textBox4.Size = new System.Drawing.Size(170, 20);
+            this.textBox4.TabIndex = 25;
+            this.textBox4.Text = "//*[@class=\'vung_doc\']";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(419, 211);
+            this.ClientSize = new System.Drawing.Size(744, 211);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.TakeInTranslateButton);
             this.Controls.Add(this.GoToTranslatorButton);
             this.Controls.Add(this.SaveButtonButton);
@@ -252,6 +355,15 @@
         private System.Windows.Forms.Button GoToTranslatorButton;
         private System.Windows.Forms.Button TakeInTranslateButton;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBox4;
     }
 }
 

@@ -27,7 +27,7 @@ namespace Novel_Google_Translate
 
             SaveButtonButton.Enabled = false;
             TakeInTranslateButton.Enabled = false;
-            GoToTranslatorButton.Enabled = false;
+            comboBox1.SelectedIndex = 0;
         }
 
         private async void StartParse(object sender, EventArgs e)
@@ -66,6 +66,20 @@ namespace Novel_Google_Translate
                 {
                     page[y] = System.Net.WebUtility.HtmlDecode(page[y]);
                     page[y] = page[y].Replace("вЂ¦", "");
+                    bool allGavno = true;
+                    foreach (var word in page[y])
+                    {
+                        if (word != ' ')
+                        {
+                            allGavno = false;
+                            break;
+                        }
+                    }
+                    if(allGavno)
+                    {
+                        page.RemoveAt(y);
+                        y--;
+                    }
                 }
                 parsedPages.AddRange(page);
 
@@ -100,7 +114,26 @@ namespace Novel_Google_Translate
                 string collectedText = string.Empty;
                 foreach (HtmlNode item in collection)
                 {
-                    collectedText += $"{item.InnerText}\n";
+                    if(comboBox1.SelectedIndex == 0)
+                    {
+                        collectedText += $"{item.InnerText}\n";
+                    }
+                    else if(comboBox1.SelectedIndex == 1)
+                    {
+                        string[] mas = item.InnerHtml.Split(new string[] { "<br>" }, StringSplitOptions.RemoveEmptyEntries);
+                        foreach(var mes in mas)
+                        {
+                            collectedText += $"{mes}\n";
+                        }
+                    }
+                    else if (comboBox1.SelectedIndex == 2)
+                    {
+                        string[] mas = item.InnerHtml.Split(new string[] { "<p>" }, StringSplitOptions.RemoveEmptyEntries);
+                        foreach (var mes in mas)
+                        {
+                            collectedText += $"{mes}\n";
+                        }
+                    }
                 }
 
                 return new List<string>(collectedText.Split(new char[] { '\n' }, StringSplitOptions.RemoveEmptyEntries));

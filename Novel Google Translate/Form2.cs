@@ -64,6 +64,8 @@ namespace Novel_Google_Translate
             stringsToTranslate = new List<string>(strings);
 
             SaveTranslateButton.Enabled = false;
+            LoadFromFileButton.Enabled = true;
+            StartTranslateButton.Enabled = true;
         }
 
         private void maxFragmentLenghtUpdate(object sender, EventArgs e)
