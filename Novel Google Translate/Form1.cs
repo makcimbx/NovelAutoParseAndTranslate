@@ -120,9 +120,10 @@ namespace Novel_Google_Translate
                     }
                     else if(comboBox1.SelectedIndex == 1)
                     {
-                        string[] mas = item.InnerHtml.Split(new string[] { "<br>" }, StringSplitOptions.RemoveEmptyEntries);
+                        string[] mas = item.InnerHtml.Split(new string[] { "<br>", "\n" }, StringSplitOptions.RemoveEmptyEntries);
                         foreach(var mes in mas)
                         {
+                            if (mes[0] == '<') continue;
                             collectedText += $"{mes}\n";
                         }
                     }
@@ -131,6 +132,7 @@ namespace Novel_Google_Translate
                         string[] mas = item.InnerHtml.Split(new string[] { "<p>" }, StringSplitOptions.RemoveEmptyEntries);
                         foreach (var mes in mas)
                         {
+                            if (mes[0] == '<') continue;
                             collectedText += $"{mes}\n";
                         }
                     }
